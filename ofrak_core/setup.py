@@ -29,7 +29,7 @@ setuptools.setup(
     },
     install_requires=[
         "intervaltree==3.1.0",
-        "lief==0.12.1",
+        "lief==0.12.2",
         "orjson~=3.6.7",
         "pefile==2022.5.30",
         "python-magic",
@@ -61,7 +61,7 @@ setuptools.setup(
             "hypothesis-trio",
             "trio-asyncio",
             "mypy==0.942",
-            "pytest-asyncio>=0.19.0",
+            "pytest-asyncio==0.19.0",
             "pytest-lazy-fixture",
             "pytest-cov",
             "pytest-xdist",

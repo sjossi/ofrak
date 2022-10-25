@@ -33,6 +33,7 @@ setuptools.setup(
         "pycdlib==1.12.0",
         "python-magic",
         "synthol~=0.1.1",
+        "reedsolo==1.5.4",
     ],
     extras_require={
         "docs": [
@@ -53,7 +54,7 @@ setuptools.setup(
             "hypothesis-trio",
             "trio-asyncio",
             "mypy==0.942",
-            "pytest-asyncio>=0.19.0",
+            "pytest-asyncio==0.19.0",
             "pytest-lazy-fixture",
             "pytest-cov",
             "pytest-xdist",
